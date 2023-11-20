@@ -1,0 +1,97 @@
+nav {
+background-color: #00000075; 
+display: flex;
+justify-content: space-around;
+align-items: center; 
+padding: 10px; 
+font-size: 20pt;
+}
+
+nav a {
+text-decoration: none; 
+color: #fff;
+margin: 0 10px; 
+transition: color 0.3s; 
+}
+
+nav a:hover {
+color: #ff5733; 
+}
+
+nav h1 {
+margin: 0;
+font-size: 30pt; 
+color: #fff; 
+}
+
+h1{
+background-color: #00000075;
+color: rgba(0, 0, 0, 0.558);
+padding-left: 10px;
+}
+
+input[type="text"], select {
+padding: 6px 12px;
+margin: 8px;
+display: inline-flex;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
+}
+
+.table {
+font: normal 14pt arial;
+border-collapse: collapse;
+width: 100%;
+margin: auto;
+
+}
+
+td, th {
+border: 2px solid #ddd;
+padding: 10px;
+text-align: left;
+}
+
+th {
+color: whitesmoke;
+background-color: #00000075;
+text-align: center;
+}
+
+tr:nth-child(odd) {
+background-color: #fffdfd;
+}
+
+button {
+background-color: #d9534f;
+color: white;
+border: none;
+padding: 6px 12px;
+cursor: pointer;
+}
+
+button:hover {
+background-color: #bc5a5a;
+}
+
+input[type="submit"] {
+background-color: #27b0da;
+color: white;
+padding: 10px 20px;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+}
+
+input[type="submit"]:hover {
+background-color: #126984;
+}
+
+.book-form{
+font: normal 16pt Arial;
+width: 500px;
+padding: 5px;
+margin: auto;
+text-align: center;
+}
